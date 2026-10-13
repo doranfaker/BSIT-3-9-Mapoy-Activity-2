@@ -1,0 +1,39 @@
+.banner {
+  width: 100%;
+  border-radius: 16px;
+  padding: 24px 16px;
+  margin: 10px auto;
+  text-align: center;
+  color: #ffffff;
+  background: linear-gradient(135deg, #3880ff 0%, #222428 100%);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+
+  .badge {
+    display: inline-block;
+    background: rgba(255, 255, 255, 0.2);
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 4px 10px;
+    border-radius: 20px;
+    margin-bottom: 8px;
+  }
+
+  h2 {
+    font-size: 22px;
+    font-weight: 800;
+    margin: 4px 0 8px 0;
+  }
+
+  p {
+    font-size: 13px;
+    opacity: 0.9;
+    margin: 0 0 16px 0;
+  }
+
+  ion-button {
+    font-weight: 600;
+    --color: #3880ff;
+  }
+}
